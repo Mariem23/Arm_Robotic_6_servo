@@ -77,6 +77,7 @@
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="fatoum.ino" />
     <None Include="servo_test.ino">
       <FileType>CppCode</FileType>
     </None>

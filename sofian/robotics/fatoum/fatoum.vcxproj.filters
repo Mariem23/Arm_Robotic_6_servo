@@ -16,6 +16,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="servo_test.ino" />
+    <None Include="fatoum.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.fatoum.vsarduino.h">
