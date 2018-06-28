@@ -13,15 +13,13 @@
 
 //Define type of servo
 
-//Define type of servo
-
 #define NSERVO 6
 extern Servo SERVOS[NSERVO];
 
 #ifdef ARDUINO
-const int PINS[NSERVO] = { 3,5,6,9,10,11 };
-const int INIT[NSERVO] = { 900,1370,900,1600,900,1200 };
-const int MAX[NSERVO] = { 2000,1370,1750,800,2000,2000 };
+const int PINS[NSERVO] = { 2,4,7,8,12,13 };
+const int INIT[NSERVO] = { 0,900,1370,900,1600,900};
+const int MAX[NSERVO] = { 0,2000,1370,1750,800,2000 };
 #else  //ESPSTATE
 const int PINS[NSERVO] = { 0,5,4,0,2,14,12 };
 const int INIT[NSERVO] = { 0,0,0,20,100,40,70 };
@@ -41,6 +39,6 @@ extern unsigned long clock_end;
 
 //Definition de la fonction
 void MoveMyServo(int num);
-void SetupServoArm();
+
 #endif
 

@@ -1,6 +1,7 @@
 #define ESPSTATE
 #include "servo_controller.h"
-void setup() {
+  
+  void setup() {
 	//Port Serial
 	Serial.begin(9600);
 	//Servo motor
@@ -22,8 +23,6 @@ void loop() {
 		MoveMyServo(6);
 
 	}
-
-
 	Serial.print(SPEEDS[1]);
 	Serial.print(':');
 	Serial.print(TARGET[1]);
