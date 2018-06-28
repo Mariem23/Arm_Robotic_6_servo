@@ -49,7 +49,7 @@ void MoveMyServo(int num) {
       REAL[num] = REAL[num] - 1;
       if (REAL[num] < INIT[num]) REAL[num] = INIT[num];
     }
- //SERVOS[num].writeMicroseconds(REAL[num]? REAL[num] : MAX[num]-REAL[num]);
+ SERVOS[num].writeMicroseconds(REAL[num]? REAL[num] : MAX[num]-REAL[num]);
 }
 
 
