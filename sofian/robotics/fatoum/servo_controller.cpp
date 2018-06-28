@@ -4,7 +4,6 @@
 
 #include "servo_controller.h"
 
-
 //Initialisation des valeurs 
 int  val = 0;
 int tmp = 0;
@@ -35,7 +34,7 @@ void servoSetup(int num) {
 
 void SetupServoArm() {
 
-	for (int num = 1; num < 7; num++) {
+	for (int num = 0; num < NSERVO; num++) {
 		servoSetup(num);
 	}
 }
@@ -53,8 +52,10 @@ void MoveMyServo(int num) {
 		REAL[num] = REAL[num] - 1;
 		if (REAL[num] < INIT[num]) REAL[num] = INIT[num];
 	}
-	//SERVOS[num].writeMicroseconds(REAL[num]? REAL[num] : MAX[num]-REAL[num]);
+	SERVOS[num].writeMicroseconds(REAL[num]? REAL[num] : MAX[num]-REAL[num]);
 }
+
+
 
 
 
