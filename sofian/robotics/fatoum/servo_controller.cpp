@@ -1,6 +1,3 @@
-// 
-// 
-// 
 
 #include "servo_controller.h"
 
