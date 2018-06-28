@@ -31,7 +31,7 @@ void servoSetup(int num) {
 
 void SetupServoArm() {
 
-  for (int num = 1; num < 7; num++) {
+  for (int num = 0; num < 6; num++) {
     servoSetup(num);
   }
 }

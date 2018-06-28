@@ -5,7 +5,7 @@
 
 //Define type of servo
 
-#define NSERVO 7
+#define NSERVO 6
 extern Servo SERVOS[NSERVO];
 
 #ifdef ARDUINO
