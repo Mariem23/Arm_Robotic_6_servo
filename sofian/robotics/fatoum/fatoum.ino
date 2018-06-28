@@ -8,11 +8,11 @@
 #include "commons.h"
 #include "udp_networking.h"
 #include "servo_controller.h"
-void setup() {
-
-}
-
-// the loop function runs over and over again until power down or reset
-void loop() {
-  
-}
+//void setup() {
+//
+//}
+//
+//// the loop function runs over and over again until power down or reset
+//void loop() {
+//  
+//}

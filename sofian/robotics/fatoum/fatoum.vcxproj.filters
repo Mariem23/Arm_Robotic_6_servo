@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="fatoum.ino" />
+    <None Include="servo_test.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.fatoum.vsarduino.h">
