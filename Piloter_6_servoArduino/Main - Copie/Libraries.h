@@ -9,7 +9,7 @@
 extern Servo SERVOS[NSERVO];
 
 #ifdef ARDUINO
-const int PINS[NSERVO] = {2,4,7,8,12,13};
+const int PINS[NSERVO] = {3,5,6,9,10,11};
 const int INIT[NSERVO] ={0,900,1370,900,1600,900,1200};
 const int MAX[NSERVO] ={0,2000,1370,1750,800,2000,2000};
 #else  //ESPSTATE
